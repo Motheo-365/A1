@@ -1,7 +1,7 @@
 <!-- u24666981 MOtheo Morena -->
 
 <template>
-    <section>
+    <section id = "contact">
         <h2 id = "contact-title"> Contact Me </h2>
         <form name="contact" class = "contact-form">
             <p>

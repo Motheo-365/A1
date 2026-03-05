@@ -4,9 +4,9 @@
   <nav class="navbar">
     <div class="container">
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
