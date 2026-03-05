@@ -113,9 +113,9 @@
     .api {
       position: relative;
       color: white;
-      transform: translate(7%, 60%);
+      transform: translate(7%, 50%);
       border: 1px solid white;
-      padding: 2%;
+      padding: 1.2%;
     }
 
     /*
