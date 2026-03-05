@@ -13,7 +13,4 @@
 </script>
 
 <style scoped>
-  * {
-    background-color: black;
-  }
 </style>

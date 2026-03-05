@@ -1,4 +1,7 @@
 <!-- u24666981 MOtheo Morena -->
+<script setup>
+  import Nav from './navbar.vue'
+</script>
 
 <template>
   <!-- Loading Screen -->
@@ -7,6 +10,7 @@
   </div>
 
   <div v-else class="container">
+    <Nav class = "navbar"/>
     <!-- Image -->
     <NuxtImg 
       src="/media/motheo.jpeg" 
@@ -43,6 +47,10 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    }
+
+    .navbar {
+      
     }
 
     .img {

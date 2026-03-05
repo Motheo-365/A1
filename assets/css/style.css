@@ -2,6 +2,8 @@ body {
   background-color: #000000;
   color: #FFFFFF;
   font-family: 'Arial', sans-serif;
+
+  overflow-x: hidden;
 }
 
 a, .highlight {
