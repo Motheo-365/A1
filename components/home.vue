@@ -11,34 +11,41 @@
       <div class="loader"> <em> Loading... </em></div>
     </div>
 
-    <div v-else class="container">
+    <div v-else >
       <Nav class = "navbar" />
-      <Weather class = "weather" />
 
-
-      <!-- Image -->
-      <NuxtImg 
-        src="/media/motheo.jpeg" 
-        alt="An image of me, Motheo Morena." 
-        class="img" 
-      />
-
-      <!-- Text box -->
-      <div class="text-box">
-        <h1 id="name">MOTHEO MORENA</h1>
-        <p class="info-me">
-          A Multimedia student at the University of Pretoria. <br/>
-          I specialise in front-end web development, animation, and creative storytelling, blending code with creativity to bring ideas to life. <br/>
-          Whether it’s a website, interactive project or visual concept, I love turning imagination into reality.
-        </p>
-
-        <!--
-        <div class = "links">
-          <a href = "#projects"> Projects </a>
-          <a href = "#contact"> Contact </a>
-        </div>
-      -->
+      <div class = "api">
+        <Weather/>
       </div>
+
+      <div class="container">
+        <!-- Image -->
+          <NuxtImg 
+            src="/media/motheo.jpeg" 
+            alt="An image of me, Motheo Morena." 
+            class="img" 
+          />
+
+          <!-- Text box -->
+          <div class="text-box">
+            <h1 id="name">MOTHEO MORENA</h1>
+            <p class="info-me">
+              A Multimedia student at the University of Pretoria. <br/>
+              I specialise in front-end web development, animation, and creative storytelling, blending code with creativity to bring ideas to life. <br/>
+              Whether it’s a website, interactive project or visual concept, I love turning imagination into reality.
+            </p>
+
+            <!--
+              <div class = "links">
+                <a href = "#projects"> Projects </a>
+                <a href = "#contact"> Contact </a>
+              </div>
+            -->
+          </div>
+      </div>
+
+
+      
     </div>
   </section>
 </template>
@@ -103,8 +110,12 @@
       line-height: 1.6;
     }
 
-    .weather {
+    .api {
+      position: relative;
       color: white;
+      transform: translate(7%, 60%);
+      border: 1px solid white;
+      padding: 2%;
     }
 
     /*
