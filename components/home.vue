@@ -113,8 +113,10 @@
     .api {
       position: relative;
       color: white;
+      max-width: 85%;
       transform: translate(7%, 50%);
       border: 1px solid white;
+      border-radius: 8px;
       padding: 1.2%;
     }
 
