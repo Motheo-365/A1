@@ -97,7 +97,6 @@
     })
 </script>
 
-<!-- Weather.vue (only the template section shown) -->
 <template>
     <h2>Current Weather in {{ weather?.timezone }}</h2>
     <section v-if="weather" class="hero" :style="{ background: bgGradient }">

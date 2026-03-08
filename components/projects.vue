@@ -62,7 +62,6 @@
 </template>
 
 <script setup>
-    // Minimal, data‑driven projects. Replace links/images as you like.
     const projects = [
     {
         id: 1,
