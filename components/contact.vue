@@ -35,7 +35,7 @@
 
 <style scoped>
     #contact-title {
-        font-size: 2.5em;
+        font-size: 5rem;
         font-weight: bold;
         color: #fff;
         margin-bottom: 1.5rem;
