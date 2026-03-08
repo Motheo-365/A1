@@ -74,10 +74,12 @@
 
     .container {
       width: 90vw;
-      max-width: 1200px;
+      max-width: 90%;
+      height: 80vh;
+      max-height: 60%;
       border: 2px solid #ffffff;
       display: flex;
-      flex-direction: row; /* image left, text right */
+      flex-direction: row;
       gap: 2rem;
       margin: 10rem auto 2rem auto;
       justify-content: flex-start;
@@ -114,7 +116,7 @@
       position: relative;
       color: white;
       max-width: 85%;
-      transform: translate(7%, 50%);
+      transform: translate(7%, 20%);
       padding: 1%;
     }
 
