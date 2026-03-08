@@ -1,4 +1,4 @@
-<!-- Weather.vue -->
+<!-- u24666981 Motheo Morena -->
 <script setup>
     import { ref, onMounted, computed } from 'vue'
 
