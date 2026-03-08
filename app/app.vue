@@ -2,8 +2,8 @@
 <!-- u24666981 Motheo Morena -->
 <template>
   <Home/>
-  <Contact/>
   <Projects/>
+  <Contact/>
 </template>
 
 <script setup>
