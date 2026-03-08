@@ -62,53 +62,39 @@
 </template>
 
 <script setup>
-// Minimal, data‑driven projects. Replace links/images as you like.
-const projects = [
-  {
-    id: 1,
-    title: 'Modern Landing Page',
-    description:
-      'Clean, responsive landing page with a hero section, feature grid, and CTA. Built mobile-first.',
-    tags: ['HTML', 'CSS', 'Accessibility'],
-    image:
-      'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80&auto=format&fit=crop',
-    demo: 'https://example.com/landing',
-    repo: 'https://github.com/yourname/modern-landing'
-  },
-  {
-    id: 2,
-    title: 'Weather & Air Quality',
-    description:
-      'Simple weather dashboard showing temperature, PM2.5/PM10, and US AQI with color status.',
-    tags: ['Vue 3', 'API', 'UI'],
-    image:
-      'https://images.unsplash.com/photo-1502303756781-9f4b1b2d8d53?w=800&q=80&auto=format&fit=crop',
-    demo: 'https://example.com/weather',
-    repo: 'https://github.com/yourname/weather-aqi'
-  },
-  {
-    id: 3,
-    title: 'Portfolio Starter',
-    description:
-      'A lightweight portfolio template with sections for About, Work, and Contact.',
-    tags: ['Vue 3', 'Vite', 'Responsive'],
-    image:
-      'https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=800&q=80&auto=format&fit=crop',
-    demo: 'https://example.com/portfolio',
-    repo: 'https://github.com/yourname/portfolio-starter'
-  },
-  {
-    id: 4,
-    title: 'Mini Store Grid',
-    description:
-      'Minimal e‑commerce product grid with cards, price, and hover effects.',
-    tags: ['CSS Grid', 'UI', 'Components'],
-    image:
-      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80&auto=format&fit=crop',
-    demo: 'https://example.com/store',
-    repo: 'https://github.com/yourname/mini-store-grid'
-  }
-];
+    // Minimal, data‑driven projects. Replace links/images as you like.
+    const projects = [
+    {
+        id: 1,
+        title: "Simple Favourite Artists' website",
+        description:
+        'Simple website of Beyonce.',
+        tags: ['HTML', 'CSS', 'UI'],
+        image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3SmUcBEuGihX-vva8cVHx-_wdBD6uklaV8w&s',
+        demo: 'https://motheo-365.github.io/Beyonce/',
+    },
+    {
+        id: 2,
+        title: 'Flight Booking Website',
+        description:
+        'A simple non-functional flight booking website, for JetMotheo',
+        tags: ['HTML', 'CSS','UI'],
+        image:
+        'https://www.sciencing.com/sciencing/difference-between-jet-plane-5263274/57d2067ecc744a07b20d4698aa11fcd4.jpg',
+        demo: 'https://motheo-365.github.io/jet-motheo/',
+    },
+    {
+        id: 3,
+        title: 'Portfolio Starter',
+        description:
+        'A lightweight portfolio template with sections for About, Work, and Contact.',
+        tags: ['Vue 3', 'Vite', 'Responsive'],
+        image:
+        'https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=800&q=80&auto=format&fit=crop',
+        demo: 'https://example.com/portfolio',
+    }
+    ];
 </script>
 
 <style scoped>
@@ -117,8 +103,9 @@ const projects = [
     }
 
     .section-title {
-        font-size: 1.5rem;
+        font-size: 5rem;
         margin: 0 0 1rem;
+        text-align: center;
         font-weight: 700;
     }
 
@@ -137,24 +124,22 @@ const projects = [
     }
 
     .card {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #e5e7eb;
-    border-radius: 10px;
-    overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #e5e7eb;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .thumb {
         display: block;
         aspect-ratio: 16 / 9;
         overflow: hidden;
+        text-align: center;
     }
 
     .thumb img {
-        width: 100%;
-        height: 100%;
         object-fit: cover;
-        transform: scale(1.02);
         transition: transform 200ms ease;
     }
 
@@ -213,11 +198,11 @@ const projects = [
     }
 
     .btn-primary {
-        background: #0ea5e9;
+        background: #9A6B7D;
         color: white;
     }
 
-    .btn-primary:hover { background: #0284c7;}
+    .btn-primary:hover { background: #7f5867;}
 
     .btn-ghost {
         background: transparent;
