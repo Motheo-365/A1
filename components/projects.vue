@@ -160,7 +160,7 @@
 
     .card-title {
         margin: 0 0 0.25rem;
-        font-size: 1.05rem;
+        font-size: 1.9rem;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         overflow: hidden;
